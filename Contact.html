@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactUsForm.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+    <form action="submitted.html" method="post">
+        <h1>Contact Us</h2>
+        
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your email">
+        <br><br>
+
+        <label for="gender">Gender</label>
+        <input id="gender" type="radio" name="gender">Female
+        <input id="gender" type="radio" name="gender">Male 
+        <br><br>
+
+        <label for="phoneNo">Phone No.</label>
+        <input id="phoneNo" type="text" id="phoneNo" placeholder="Enter your phone number">
+        <br><br>
+
+        <label for="description" >Description</label>
+        <textarea id="description" name="Description" id="Description" placeholder="Add description"></textarea>
+        <br><br>
+
+        <label for="select">Whom you want to contact </label>
+        <select name="" id="select"  >
+            <option value="" disabled>Manager</option>
+            <option value="">Developer</option>
+            <option value="">Consultant</option>
+        </select>
+        <br><br>
+
+        <label for="courses" id="courses">Courses :</label>
+        <input id="courses" type="checkbox"> C++
+        <input type="checkbox"> Java Programming
+        <br><br>
+
+        <button type="button" value="Submit">Submit</button>
+        <br>
+        <br>
+     
+    </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 all rights reserved</p>
+    </footer>
+</body>
+</html>

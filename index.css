@@ -1,0 +1,109 @@
+body{
+    background-image: url("Images/blank-blue-leafy-poster_53876-99945.jpg"); 
+    background-repeat: no-repeat ;
+    background-size: cover  
+    
+}
+section{
+    /* position: relative; */
+    top: 40px;
+}
+header{
+    margin: auto
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(34, 7, 74);
+    color: white;
+    text-decoration: none ;
+    z-index: 1;
+}
+
+#firstLi{
+    padding-left: 60px;
+}
+
+nav li{
+    display: inline;
+    /* display: flex; */
+    justify-content:space-between ;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.25em;
+    /* justify-content:space-around ; */
+    /* padding-inline: 100px; */
+}
+nav li:hover{
+   background-color: rgb(74, 68, 126);
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 60px;
+    font-size: 3em;
+    color: rgb(6, 6, 87);
+}
+#p1{
+    color: blueviolet;
+
+}
+.table{
+    color: green;
+}
+
+nav, .table, #p1{
+    color: gray;
+}
+
+figure{ 
+    width: 285px;
+    padding: 0px;
+    display: inline;
+}
+figcaption{
+    margin-left: 50px;
+}
+div{
+    width: 400px;
+    height: 400px;
+}
+img{
+    padding-top: 10px;
+    /* left: 100px;
+    top: 30px;
+    bottom: 30px; */
+    padding: 5px;
+    border: 5px solid rgb(5, 10, 81);
+}
+
+footer{
+    
+}
+
+video{
+    top: 500px;
+    
+}
+
+@media only screen and (max-width:400px) {
+    img{
+        border-color: red;
+    }
+    
+      
+}
