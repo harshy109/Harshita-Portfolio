@@ -102,6 +102,11 @@ div{
     border: 5px solid rgb(5, 10, 81); */
 }
 
+#tableTitle{
+    color:  hsl(201, 73%, 48%) ;
+    font-family: 'Sofia';
+}
+
 footer{
     
 }
