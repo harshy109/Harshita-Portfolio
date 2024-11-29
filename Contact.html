@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
     <link rel="stylesheet" href="contactUsForm.css">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div id="nav">
+            <nav>
+                <ul>
+                    <li id="firstLi"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section>
-    <form action="submitted.html" method="post">
-        <h1>Contact Us</h2>
+    <div id="formContainer">
+    <form id="form" action="submitted.html" method="post">
+        <h1 id="contactHeading">Contact</h2>
         
         <label for="name">Name</label>
         <input id="name" type="text" placeholder="Enter your name">
@@ -61,7 +66,9 @@
         <br>
      
     </form>
+    </div>
     </section>
+    
     <footer>
         <p>&copy; 2024 all rights reserved</p>
     </footer>
