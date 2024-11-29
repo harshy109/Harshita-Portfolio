@@ -23,54 +23,45 @@
         </div>
     </header>
     <section>
-    <div id="formContainer">
-    <form id="form" action="submitted.html" method="post">
-        <h1 id="contactHeading">Contact</h2>
-        
-        <label for="name">Name</label>
-        <input id="name" type="text" placeholder="Enter your name">
-        <br><br>
-
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="Enter your email">
-        <br><br>
-
-        <label for="gender">Gender</label>
-        <input id="gender" type="radio" name="gender">Female
-        <input id="gender" type="radio" name="gender">Male 
-        <br><br>
-
-        <label for="phoneNo">Phone No.</label>
-        <input id="phoneNo" type="text" id="phoneNo" placeholder="Enter your phone number">
-        <br><br>
-
-        <label for="description" >Description</label>
-        <textarea id="description" name="Description" id="Description" placeholder="Add description"></textarea>
-        <br><br>
-
-        <label for="select">Whom you want to contact </label>
-        <select name="" id="select"  >
-            <option value="" disabled>Manager</option>
-            <option value="">Developer</option>
-            <option value="">Consultant</option>
-        </select>
-        <br><br>
-
-        <label for="courses" id="courses">Courses :</label>
-        <input id="courses" type="checkbox"> C++
-        <input type="checkbox"> Java Programming
-        <br><br>
-
-        <button type="button" value="Submit">Submit</button>
-        <br>
-        <br>
-     
-    </form>
-    </div>
+        <div id="formContainer">
+            <form id="form" action="submitted.html" method="post">
+                <h1 id="contactHeading">Contact</h1>
+                
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name">
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email">
+                
+                <label for="gender">Gender</label>
+                <input id="gender" type="radio" name="gender">Female
+                <input id="gender" type="radio" name="gender">Male 
+                
+                <label for="phoneNo">Phone No.</label>
+                <input id="phoneNo" type="text" placeholder="Enter your phone number">
+                
+                <label for="description">Description</label>
+                <textarea id="description" name="Description" placeholder="Add description"></textarea>
+                
+                <label for="select">Whom you want to contact</label>
+                <select id="select">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="manager">Manager</option>
+                    <option value="developer">Developer</option>
+                    <option value="consultant">Consultant</option>
+                </select>
+                
+                <label for="courses">Courses</label>
+                <input id="courses" type="checkbox"> C++
+                <input type="checkbox"> Java Programming
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </section>
     
     <footer>
-        <p>&copy; 2024 all rights reserved</p>
+        <p>&copy; 2024 Copyrights reserved</p>
     </footer>
 </body>
 </html>
